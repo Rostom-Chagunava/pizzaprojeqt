@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizzahouse</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media.css">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            
+            <div id="navbar-part1">
+                <p class="about">About</p>
+                <p class="Careers">Careers</p>
+            </div>
+    
+            <div class="header-cover-image"></div>
+
+            <div id="navbar-part2">
+                <div id="navbar-part2-2">
+                    <p class="Menu">Menu</p>
+                    <div><i class="fa-solid fa-basket-shopping basket-shopping basket-shopping1 "></i></div>
+                </div>
+               <div class="bay bay1">🍕 ORDER ONLINE <i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>       
+    
+        </div>
+
+        <div id="navbar2">
+            <i class="fa-solid fa-bars" id="hamburger-Manu"></i>
+            <div id="navbar-manu">
+                <p class="about">About</p>
+                <p class="Careers">Careers</p>
+                <p class="Menu">Menu</p>
+            </div>
+            
+            <div class="header-cover-image"></div>
+            
+                <div class="order1 bay1">🍕</div>
+           
+        </div>
+
+        <div ><i class="fa-solid fa-basket-shopping basket-shopping basket-shopping2"></i></div>
+    </header>
+    <!-- --------------- -->
+    <!-- main -->
+    <!-- ------------- -->
+    
+    <main>
+
+        <!-- sales container -->
+
+        <section id="salaSection">
+            <h2>Sales</h2>
+            
+            <div id="salepizzamain">
+               
+                <div id="salepizzas">
+                    <div class="salesdiv salesdiv1">
+                        <div class="sale-img sale-img1"></div>
+                        <p class="name-of-salepizza">Alfredo chicken sarpinos</p>
+                    </div>
+                    <div class="salesdiv salesdiv2">
+                        <div class="sale-img sale-img2"></div>
+                        <p class="name-of-salepizza">Cheese lovers sarpinos</p>
+                    </div>
+                    <div class="salesdiv salesdiv3">
+                        <div class="sale-img sale-img3"></div>
+                        <p class="name-of-salepizza">Thin crust lovers sarpinos</p>
+                    </div>
+                    <div class="salesdiv salesdiv4">
+                        <div class="sale-img sale-img4"></div>
+                        <p class="name-of-salepizza">Tropical hawaiian sarpinos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="pizzeriaSection">
+
+            <div id="pizzeriaImg">
+                <img src="/image/pizzeria.gif" alt="">
+            </div>
+
+            <div id="pizzeriaSectionDiv">
+                <div id="pizzeriaSectionDiv1">
+                    <h1>Our Locations</h1>
+                    <div class="lineDiv2">Georgia,Tbilisi, Chavchavadze Avenue #2</div>
+                    <div class="lineDiv2">Georgia,Kutaisi,Rustaveli Avenue #10</div>
+                </div>
+                <h2>Featured Locations:</h2>
+                <div id="pizzeriaSectionDiv2">
+                    <p>BATUMI</p>
+                    <p>ZUGDIDI</p>
+                    <p>TELAVI</p>
+                </div>
+
+                <p>At any Pizza house, you’ll find the perfect ingredients for a great time.  From Norman to North Little Rock, our team members are serving up a unique and vibrant experience that's anything but stiff. So whether you're out with the Family, your friends, your better half, or just your own hungry self, we have you covered. Come find your Hideaway, and be a pizz-a the party!</p>
+
+                <a target="_blank" href="https://www.google.com/maps/place/Pizza+house/@41.7650307,44.7654993,17z/data=!3m1!4b1!4m6!3m5!1s0x40446dbdf10984ed:0x8cbb1b6cfae77c7e!8m2!3d41.7650268!4d44.7703702!16s%2Fg%2F11mpbj_x39?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D">📍Find your pizza house</a>
+               
+            </div>
+        </section>
+
+        <!-- ------------- -->
+        <!-- manu -->
+        <!-- ----------- -->
+
+        <!-- basket -->
+
+        <div id="basket-container">
+            <div id="titel-Product">
+                <div>
+                    <label for="input-addres">Enter your Address:</label>
+                    <input type="Enter your Address" id="input-addres">
+                </div>
+                <p>Total Prise: <span id="Total-Prise">   </span>$</p>
+                <p>Total quantity: <span id="Total-quantity">   </span></p>
+            </div>
+
+            <div id="empti"></div>
+
+            <div class="Product-div1">
+                <div class="src-basket1">Image</div>
+                <p class="name-Product1">Pizza Name</p>
+                <p><span id="prise-Product1">Prise</span>$</p>
+                <p>Count</p>
+                <p class="name-Product1">Delete</p>
+            </div>
+
+            <div id="Product-container">
+       
+                
+                <!-- <div class="Product-div">
+                    <div class="src-basket"></div>
+                    <p class="name-Product">pizza</p>
+                    <p><span id="prise-Product">25</span>₾</p>
+                    <p class="product-Count">0</p>
+                    <p class="name-Product">X</p>
+                </div>  -->
+            </div>
+
+            <button class="buyBtn bay1">Buy Now!</button>
+        </div>
+
+        <div id="form-of-cards">
+            <form>
+                <input type="text" placeholder="Name" class="input-of-card">
+                <input type="number" placeholder="Card number" class="input-of-card">
+                <input type="text" placeholder="VALID/THRU" class="input-of-card">
+                <input type="number" placeholder="CVC" class="input-of-card">
+            </form>
+
+            <div id="card">
+                <img src="/image/imagesofcard-removebg-preview.png" alt="">
+                <p id="name-of-user" class="text-of-card">rosotm chagunava</p>
+                <p id="name-of-banc">Bank</p>
+                <p id="numer" class="text-of-card">56542566545254</p>
+                <p id="valid-of-user" class="text-of-card">25/52</p>
+                <p id="cvc-text">cvc</p>
+                <p id="cvc" class="text-of-card">565</p>
+                
+            </div>
+            <button id="btn-card">Submit</button>
+        </div>
+
+
+        <div id="main-manu-div">
+            <aside id="menu-choice">
+                <ul>
+                    <li id="all-mapping">All</li>
+                    <li id="vegetarian-mapping">Vegetarian</li>
+                    <li id="fasting-mapping">Fasting Food</li>
+                    <li id="create-your-own">Create your own</li>
+                </ul>
+            </aside> 
+
+            <aside id="search-container">
+                <div id="prise-sort">
+                    <div>
+                        <input id="min-price" type="number" placeholder="min-price">
+                        <input id="max-price" type="number" placeholder="max-prise">
+                    </div>
+                   
+                    <i style="border: 1px solid black;padding: 3px; border-radius: 5px;" class="fa-solid fa-right-long prise-arrow"></i>
+                </div>
+
+                <div id="search-div">
+                    <input id="search" type="text" placeholder="search">
+                    <i class="fa-solid fa-magnifying-glass search-Btn"></i>
+                    <div id="search-div-name-of-item">
+  
+                    </div>
+                </div>
+                
+
+
+            </aside>
+            
+            <div id="container-menu">
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">Alfredo Chicken Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">30</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#" >More info</a>   
+                    </div>
+            
+                </div>
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">BLT Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">20</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+
+                </div>
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">Cheese Bonanza Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">50</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+
+                </div>
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1" class="name-of-btn1">Cheese Lovers Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">60</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+                </div>
+
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">Margherita Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">40</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+
+                </div>
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">New York Deli Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">80</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+
+                </div>
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">Ranch Style Chicken Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">50</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+
+                </div>
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">Santorini Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">35</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+
+                </div>
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">Sorrento Delight Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">60</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+
+                </div>
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">Thin Crust Lovers Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">25</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+
+                </div>
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">Tropical Hawaiian Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">55</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+
+                </div>
+
+                <div class="pizza-card">
+                    <div class="pizza-card-img"></div>
+                    <h1 class="name-of-btn1">Vegetarian Pizza</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem expedita, illum cum excepturi reiciendis voluptate necess</p>
+                    <h4>$<span class="pizza-price">25</span></h4>
+                    <div class="card-link-div">
+                        <button class="order">Order</button>
+                        <a href="#">More info</a>   
+                    </div>
+
+                </div>
+            </div> 
+
+        </div>
+
+
+        <!-- description pizza cards -->
+
+        <div id="pizza-description-container">
+
+            <div id="img-description"></div>
+
+            <div id="description-intro">
+               <h1 id="name-description">dhbjshdcb </h1>
+                
+               <p id="title-description" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt porro, quo ullam temporibus placeat eius eligendi voluptatem quia quod amet. Totam expedita tempora, volup</p>
+                
+                <h4>Price: <span id="desc-price">55555</span></h4>
+
+                <div id="pizza-size">
+                    <div class="pizza-zoom">8</div>
+                    <div class="pizza-zoom">10</div>
+                    <div class="pizza-zoom">12</div>
+                </div>
+
+                <ul id="pizza-description-lists">
+                    <li>Calories: <span id="Calories">300</span><i> Cals</i></li>
+                    <li>Fat Cals: <span id="fat-cals">148.33</span><i> Cals</i></li>
+                    <li>Saturated Cals: <span id="saturated-cals">55</span><i> g</i></li>
+                    <li>Saturated Fat: <span id="saturated-fat">0.4</span><i> g</i></li>
+                    <li>Trans Fat: <span id="trans-fat">8</span> <i> g</i></li>
+                </ul>  
+
+                <button id="order-btn">Order</button>
+            </div>
+           
+        </div>
+        
+
+        <!-- create your own -->
+
+        <div id="create-own-container">
+
+
+            <div id="dough">
+    
+                <div id="lori-div">
+                    <img class="lori lori1" src="/image/ingredients - lori.png" alt="">
+                    <img class="lori lori2" src="/image/ingredients - lori.png" alt="">
+                    <img class="lori lori3" src="/image/ingredients - lori.png" alt="">
+                    <img class="lori lori4" src="/image/ingredients - lori.png" alt="">
+                    <img class="lori lori5" src="/image/ingredients - lori.png" alt="">
+                 
+                </div>  
+    
+                <div id="mashroom-div">
+                    <img class="mashroom mashroom1" src="/image/ingredients -mashroom.png" alt="">
+                    <img class="mashroom mashroom2" src="/image/ingredients -mashroom.png" alt="">
+                    <img class="mashroom mashroom3" src="/image/ingredients -mashroom.png" alt="">
+                    <img class="mashroom mashroom4" src="/image/ingredients -mashroom.png" alt="">
+                    <img class="mashroom mashroom5" src="/image/ingredients -mashroom.png" alt="">
+    
+                </div>
+    
+                <div id="peperoni-div">
+                    <img class="peperoni peperoni1" src="/image/ingredients -meet.png" alt="">
+                    <img class="peperoni peperoni2" src="/image/ingredients -meet.png" alt="">
+                    <img class="peperoni peperoni3" src="/image/ingredients -meet.png" alt="">
+                    <img class="peperoni peperoni4" src="/image/ingredients -meet.png" alt="">
+                   
+                </div>
+    
+                <div id="tomato-div">
+                    <img class="tomato tomato1" src="/image/ingredients -tomato.png" alt="">
+                    <img class="tomato tomato2" src="/image/ingredients -tomato.png" alt="">
+                    <img class="tomato tomato3" src="/image/ingredients -tomato.png" alt="">
+                    <img class="tomato tomato4" src="/image/ingredients -tomato.png" alt="">
+                    <img class="tomato tomato5" src="/image/ingredients -tomato.png" alt="">
+                    <img class="tomato tomato6" src="/image/ingredients -tomato.png" alt="">
+                    <img class="tomato tomato7" src="/image/ingredients -tomato.png" alt="">
+                    <img class="tomato tomato8" src="/image/ingredients -tomato.png" alt="">
+                </div>
+    
+                <div id="vegetable-div">
+                    <img class="vegetable vegetable1" src="/image/ingredients -vegetable.png" alt="">
+                    <img class="vegetable vegetable2" src="/image/ingredients -vegetable.png" alt="">
+                    <img class="vegetable vegetable3" src="/image/ingredients -vegetable.png" alt="">
+                    <img class="vegetable vegetable4" src="/image/ingredients -vegetable.png" alt="">
+                    <img class="vegetable vegetable5" src="/image/ingredients -vegetable.png" alt="">
+                </div>
+    
+                <div id="onion-div">
+                    <img class="onion onion1" src="/image/ingredients -onion.png" alt="">
+                    <img class="onion onion2" src="/image/ingredients -onion.png" alt="">
+                    <img class="onion onion3" src="/image/ingredients -onion.png" alt="">
+                    <img class="onion onion4" src="/image/ingredients -onion.png" alt="">
+                    <img class="onion onion5" src="/image/ingredients -onion.png" alt="">
+                </div>
+    
+    
+                <div id="oregano-div">
+                    <img class="oregano oregano1" src="/image/ingredients -oregano.png" alt="">
+                    <img class="oregano oregano2" src="/image/ingredients -oregano.png" alt="">
+                    <img class="oregano oregano3" src="/image/ingredients -oregano.png" alt="">
+                    <img class="oregano oregano4" src="/image/ingredients -oregano.png" alt="">
+                    <img class="oregano oregano5" src="/image/ingredients -oregano.png" alt="">
+                    <img class="oregano oregano6" src="/image/ingredients -oregano.png" alt="">
+                </div>
+    
+            </div>
+    
+            <div id="check-ingredients">
+    
+                <h2>Total prise: <span id="total-ingredient-prise" >0</span> $</h2>
+                <div>
+                    <input class="ingredients-check" id="peperoniInp" type="checkbox" value="1">
+                    <label for="peperoniInp">Peperoni <span>10</span>$</label>
+                </div>
+               
+                <div>
+                    <input class="ingredients-check" id="hamInp" type="checkbox"  value="2">
+                    <label for="hamInp">Ham <span>9</span>$</label>
+                </div>
+               
+                <div>
+                    <input class="ingredients-check" id="tomatoinp" type="checkbox"  value="3">
+                    <label for="tomatoinp">Tomato <span>3</span>$</label>
+                </div>
+                
+                <div>
+                    <input class="ingredients-check" id="vegetableInp" type="checkbox"  value="4">
+                    <label for="vegetableInp">Vegetables <span>2</span>$</label>
+                </div>
+               
+                <div>
+                    <input class="ingredients-check" id="onionIpn" type="checkbox"  value="5">
+                    <label for="onionIpn">Onion <span>1</span>$</label>
+                </div>
+                
+                <div>
+                    <input class="ingredients-check" id="mashroomInp" type="checkbox"  value="6">
+                    <label for="mashroomInp">Mashrooms <span>3</span>$</label> 
+                </div>
+                
+                <div>
+                    <input class="ingredients-check" id="oreganoInp" type="checkbox"  value="7">
+                    <label for="oreganoInp">Oregano <span>2</span>$</label>   
+                </div>
+                
+    
+                
+                <button>Order</button>
+    
+            </div>
+        </div>
+
+        <!-- --------------------- -->
+        <!-- about container -->
+         <!-- -------------------- -->
+
+        <div id="about-container">
+            <div id="restourant-about">
+                <h1>PIZZA HOUSE</h1>
+                <div>
+                    <div id="img-tbilisi-rest"></div>
+                    <h3>Tbilisi</h3>
+                    <p> <i class="fa-solid fa-location-dot"></i> Georgia,Tbilisi,Chavchavadze Avenue #2</p>
+                    <p><i class="fa-solid fa-mobile-screen-button"></i> +995 555 777 777</p> 
+                </div>
+                <hr class="hr">
+                <div>
+                    <div id="img-kutaisi-rest"></div>
+                    <h3>Kutaisi</h3>
+                    <p> <i class="fa-solid fa-location-dot"></i> Georgia,Kutaisi,Rustaveli Avenue #10</p>
+                    <p><i class="fa-solid fa-mobile-screen-button"></i> +995 555 333 333</p> 
+                </div>
+            </div> 
+
+            <div class="mapgoogle">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.936503291002!2d44.770370199999995!3d41.7650268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446dbdf10984ed%3A0x8cbb1b6cfae77c7e!2sPizza%20house!5e0!3m2!1sen!2sge!4v1726691462653!5m2!1sen!2sge" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-rest"></iframe>
+                
+            </div>
+
+
+        </div>
+
+        <!-- ---------------------- -->
+        <!-- Career page -->
+        <!-- --------------------- -->
+
+
+        <!-- careers -->
+        <div id="careers">
+            <div id="container1-carees">
+                <div id="titel">
+                    <h2>why us?</h2>
+                </div>
+                <div id="Six-reasons">
+                    <div class="reason reason1">
+                        <img src="/image/reason1.png" alt="reason1">
+                        <h4>Flexible schedule</h4>
+                        <hr>
+                        <p>
+                            You can work with us according to your schedule, which is very convenient for all categories of people
+                        </p>
+                    </div>
+                    <div class="reason reason2">
+                        <img src="/image/reason1.png" alt="reason1">
+                        <h4>A high paying system</h4>
+                        <hr>
+                        <p>
+                            With us, you will be paid according to the service
+                        </p>
+                    </div>
+                    <div class="reason reason3">
+                        <img src="/image/reason1.png" alt="reason1">
+                        <h4>Promotion</h4>
+                        <hr>
+                        <p>With us, you have the opportunity to develop your career, in case of good grades, career promotion is considered
+                        </p>
+                    </div>
+                    <div class="reason reason4">
+                        <img src="/image/reason1.png" alt="reason1">
+                        <h4>Education funding</h4>
+                        <hr>
+                        <p>In case of high grades and good evaluation at work, the company will finance training courses that you will use for career growth in the future.
+                        </p>
+                    </div>
+                    <div class="reason reason5">
+                        <img src="/image/reason1.png" alt="reason1">
+                        <h4>
+                            Friendly work environment</h4>
+                        <hr>
+                        <p>
+                            You will find a friendly working environment with us
+                        </p>
+                    </div>
+                    <div class="reason reason6">
+                        <img src="/image/reason1.png" alt="reason1">
+                        <h4>You !</h4>
+                        <hr>
+                        <p> It will be important for the employer to create an environment suitable for you, because a happy employee creates a high-quality service
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container2-carees">
+                <div id="child-container">
+                    <div class="team team1"></div>
+                    <div class="team team2"></div>
+                    <div class="team team3"></div>
+                    <div class="team team4"></div>
+                    <div class="team team5"></div>
+                    <div class="team team6"></div>
+                    <div class="team team7"></div>
+                    <div class="team team8"></div>
+                    <div class="team team9"></div>
+                    <div class="team team10"></div>
+                    <div class="team team11"></div>
+                    <div class="team team12"></div>
+                    <div class="team team13"></div>
+                    <div class="team team14"></div>
+                    <div class="team team15"></div>
+                </div>
+            </div>
+            
+            <div id="container3-carees">
+                <form id="form-caree">
+                    <input type="text" placeholder="Name:" id="input-Name" class="input">
+                    <input type="text" placeholder="Surname" id="input-Surname" class="input">
+                    <input type="text" placeholder="Phone" id="input-Phone" class="input">
+                    <input type="email" placeholder="email" id="input-email" class="input">
+                    <input type="file"  id="input-file">
+                </form>
+                <div id="user-date">
+                    <p>User name: <span id="user-name" class="user"> . . .</span></p>
+                    <p>User surname: <span id="user-surname" class="user"> . . .</span></p>
+                    <p>User Phone: <span id="user-phone" class="user"> . . .</span></p>
+                    <p>User Email: <span id="user-email" class="user"> . . .</span></p>
+                    <button id="career-btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ------------------ -->
+    <!-- footer -->
+     <!-- ----------------- -->
+    <footer>
+        <div id="fotter-div">
+            <h2>CONTUCT US:</h2>
+
+            <div id="footer-contuct-info">
+                <ul>
+                    <h3>📍Tbilisi</h3>
+                    <li><i class="fa-solid fa-location-dot"></i> Georgia,Tbilisi, Chavchavadze Avenue #2</li>
+                    <li><i class="fa-solid fa-mobile-screen-button"></i> +995 555 777 777</li>
+                </ul> 
+            
+            
+                <ul>
+                    <h3>📍Kutaisi</h3>
+                    <li><i class="fa-solid fa-location-dot"></i> Georgia,Kutaisi,Rustaveli Avenue #10</li>
+                    <li><i class="fa-solid fa-mobile-screen-button"></i> +995 333  333</li>
+                </ul> 
+             
+            </div>
+  
+        
+        </div>
+    </footer>
+    
+
+    <script src="https://kit.fontawesome.com/f92b8a59a0.js" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

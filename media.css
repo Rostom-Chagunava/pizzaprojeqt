@@ -1,0 +1,300 @@
+@media (max-width:1320px){
+
+/* pizzeria section */
+    #pizzeriaSection{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer-contuct-info{
+        flex-direction: column;
+        align-items: flex-start;
+       
+    }
+
+    #fotter-div{
+        width: 60%;
+    }
+
+
+}
+
+@media (max-width:1100px ){
+    #pizza-description-container{
+        flex-direction: column;
+    }
+
+    #img-description{
+        width: 60%;
+      
+    }
+    
+    #description-intro{
+        width: 60%;
+    }
+
+    /* create your own */
+
+
+    #create-own-container{
+        flex-direction: column;
+        
+    }
+
+    
+    #check-ingredients{
+        width: 50%;
+    }
+
+    /* menu-choice */
+    #menu-choice{
+        width: 90%;
+    
+    }
+
+    /* about container */
+
+    #about-container{
+        flex-direction: column-reverse;
+    }
+    .mapgoogle{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .map-rest{
+        width:90%;
+        height: 300px;
+    }
+    #restourant-about div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #restourant-about{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    /* career */
+    main #careers #child-container{
+        display: flex;
+        align-items: center;
+        gap: 1px;
+        width:300%;
+        /* overflow-x: hidden; */
+        
+    }
+
+    main #careers #container2-carees #child-container .team{
+        width: 200px;
+        /* overflow: hidden; */
+    }
+   
+}
+
+
+@media (max-width:900px){
+    /* navbar */
+    #navbar{
+        display: none;
+    }
+
+    #navbar2{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #bd0404;
+        width: 100%;
+        z-index: 99;
+    
+    }
+    
+    .basket-shopping2{
+        visibility: visible;
+        position: absolute;
+        top: 80px;
+        right: 10px;
+        font-size: 20px;
+        color: #e7e4e3;
+    }
+
+    .fa-bars{
+      color: #e7e4e3;  
+      font-size:30px ;
+    }
+
+    
+    
+    .order1{
+        font-size: 25px;
+        transition: 0.5s;
+    }
+
+    .order1:hover{
+        transform: scale(1.1);
+    }
+
+    /* sale section */
+    .sale-img{
+        width: 300px;
+        height: 300px;
+    }
+
+
+    /* pizzeria section */
+    #pizzeriaImg{
+        width: 40vh;
+        height: 40vh;
+        background-color: red;
+        border-radius: 60% 90px 60% 90px;
+    }
+
+    #pizzeriaSectionDiv{
+        width: 90%;
+    }
+
+    #pizzeriaImg img{
+        width: 40vh;
+        height: 40vh;
+        border-radius: 90px 60% 90px 60%;
+    }
+
+    .lineDiv2 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+    /* menu */
+
+   
+    
+    
+/* menu - description */
+    #img-description{
+        width: 90%;
+        height: 400px;
+    }
+    #description-intro{
+        width: 90%;
+    }
+    
+    #check-ingredients{
+        width: 50%;
+    }
+
+    #prise-sort{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #prise-sort div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* basket */
+
+    #titel-Product {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #form-of-cards{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        justify-items: center;
+        align-content: center;
+        /* justify-content: stretch;
+        align-items: stretch; */
+        /* grid-row: 1fr; */
+        /* align-items: center;
+        justify-content: space-evenly; */
+        gap: 50px;
+        display: none;
+    }
+
+    #form-of-cards #btn-card{
+        bottom: -5px;
+    }
+
+
+    #Product-container {
+        
+        top: 203px}
+
+    
+            
+}
+
+
+
+@media (max-width:485px ){
+    #menu-choice ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    #create-own-container{
+        width: 100%;
+    }
+    #dough{
+        background-size: cover;
+        width: 375px;
+        height: 378px;
+        gap: 0;
+        
+
+    }
+    #check-ingredients{
+        width: 70%;
+    }
+
+    #img-description{
+        width: 100%;
+        height: 400px;
+    }
+
+    #title-description{
+        width: 100%;
+        justify-self: center;
+        align-items: center;
+    }
+
+
+    /* about container */
+
+    #restourant-about{
+        font-size: 15px;
+    }
+
+
+    #basket-container {
+        width: 80%;}
+
+    .Product-div1{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+    }    
+
+
+}
